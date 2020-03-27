@@ -53,6 +53,27 @@ export default [
     {
         name: (
             <FormattedMessage
+                defaultMessage="Welcome"
+                description="welcome!!!"
+                id="gui.extension.welcome.name"
+            />
+
+        ),
+        extensionId: 'welcome',
+        iconURL: welcomeBlocksImage,
+        insetIconURL: welcomeBlocksInsetImage,
+        description: (
+            <FormattedMessage
+                defaultMessage="new extension."
+                description="welcome"
+                id="gui.extension.welcome.description"
+            />
+        ),
+        featured: true
+    },
+    {
+        name: (
+            <FormattedMessage
                 defaultMessage="Music"
                 description="Name for the 'Music' extension"
                 id="gui.extension.music.name"
